@@ -62,6 +62,7 @@
     if ([modelIdentifier isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([modelIdentifier isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
     if ([modelIdentifier isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
+    if ([modelIdentifier isEqualToString:@"iPhone8,4"])    return @"iPhone SE";
 
     // iPad http://theiphonewiki.com/wiki/IPad
     
@@ -92,6 +93,11 @@
     if ([modelIdentifier isEqualToString:@"iPad4,7"])      return @"iPad mini 3G (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad4,8"])      return @"iPad mini 3G (Cellular)";
     if ([modelIdentifier isEqualToString:@"iPad4,9"])      return @"iPad mini 3G (Cellular)";
+    if ([modelIdentifier isEqualToString:@"iPad5,1"])      return @"iPad mini 4G (Wi-Fi)";
+    if ([modelIdentifier isEqualToString:@"iPad5,2"])      return @"iPad mini 4G (Cellular)";
+
+    if ([modelIdentifier isEqualToString:@"iPad6,7"])      return @"iPad Pro (Wi-Fi)";
+    if ([modelIdentifier isEqualToString:@"iPad6,8"])      return @"iPad Pro (Cellular)";
 
     // iPod http://theiphonewiki.com/wiki/IPod
     
