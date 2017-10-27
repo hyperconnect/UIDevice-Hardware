@@ -21,16 +21,16 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
 /**
  Returns a machine-readable model name in the format of "iPhone4,1"
  */
-- (NSString *)modelIdentifier;
+@property(readonly,nonatomic,copy,nonnull) NSString* modelIdentifier;
 
 /**
  Returns a human-readable model name in the format of "iPhone 4S". Fallback of the the `modelIdentifier` value.
  */
-- (NSString *)modelName;
+@property(readonly,nonatomic,copy,nonnull) NSString* modelName;
 
 /**
  Returns the device family as a `UIDeviceFamily`
  */
-- (UIDeviceFamily)deviceFamily;
+@property(readonly,nonatomic,assign) UIDeviceFamily deviceFamily;
 
 @end

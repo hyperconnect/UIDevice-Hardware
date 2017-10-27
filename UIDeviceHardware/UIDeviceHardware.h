@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char UIDeviceHardwareVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <UIDeviceHardware/PublicHeader.h>
 
 
-#import "UIDeviceHardware.h"
+#import "UIDevice+Hardware.h"

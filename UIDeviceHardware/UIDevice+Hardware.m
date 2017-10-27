@@ -7,7 +7,7 @@
  */
 
 #include <sys/sysctl.h>
-#import "UIDeviceHardware.h"
+#import "UIDevice+Hardware.h"
 
 @interface UIDevice (Hardward)
 
