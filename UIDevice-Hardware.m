@@ -105,6 +105,8 @@
     if ([modelIdentifier isEqualToString:@"iPad4,2"])      return @"iPad Air (Cellular)";
     if ([modelIdentifier isEqualToString:@"iPad5,3"])      return @"iPad Air 2 (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad5,4"])      return @"iPad Air 2 (Cellular)";
+    if ([modelIdentifier isEqualToString:@"iPad11,3"])     return @"iPad Air 3 (Wi-Fi)";
+    if ([modelIdentifier isEqualToString:@"iPad11,4"])     return @"iPad Air 3 (Cellular)";
 
     if ([modelIdentifier isEqualToString:@"iPad7,5"])      return @"iPad 6G (WiFi)";
     if ([modelIdentifier isEqualToString:@"iPad7,6"])      return @"iPad 6G (Cellular)";
