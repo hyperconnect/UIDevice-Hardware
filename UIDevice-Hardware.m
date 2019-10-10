@@ -125,6 +125,8 @@
     if ([modelIdentifier isEqualToString:@"iPad4,9"])      return @"iPad mini 3G (Cellular)";
     if ([modelIdentifier isEqualToString:@"iPad5,1"])      return @"iPad mini 4G (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad5,2"])      return @"iPad mini 4G (Cellular)";
+    if ([modelIdentifier isEqualToString:@"iPad11,1"])     return @"iPad mini 5G (Wi-Fi)";
+    if ([modelIdentifier isEqualToString:@"iPad11,2"])     return @"iPad mini 5G (Cellular)";
 
     // iPad Pro https://www.theiphonewiki.com/wiki/IPad_Pro
 
