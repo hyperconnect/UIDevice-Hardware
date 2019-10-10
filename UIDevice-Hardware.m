@@ -152,6 +152,7 @@
     if ([modelIdentifier isEqualToString:@"iPod4,1"])      return @"iPod touch 4G";
     if ([modelIdentifier isEqualToString:@"iPod5,1"])      return @"iPod touch 5G";
     if ([modelIdentifier isEqualToString:@"iPod7,1"])      return @"iPod touch 6G"; // as 6,1 was never released 7,1 is actually 6th generation
+    if ([modelIdentifier isEqualToString:@"iPod9,1"])      return @"iPod touch 7G";
 
     // Apple TV https://www.theiphonewiki.com/wiki/Apple_TV
 
