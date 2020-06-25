@@ -146,6 +146,8 @@
     if ([modelIdentifier isEqualToString:@"iPad8,8"])      return @"iPad Pro (12.9 inch) 3G (Cellular)"; // 6GB RAM version, up to 1TB disk
     if ([modelIdentifier isEqualToString:@"iPad8,9"])      return @"iPad Pro (11 inch) 2G (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad8,10"])      return @"iPad Pro (11 inch) 2G (Cellular)";
+    if ([modelIdentifier isEqualToString:@"iPad8,11"])      return @"iPad Pro (12.9 inch) 4G (Wi-Fi)";
+    if ([modelIdentifier isEqualToString:@"iPad8,12"])      return @"iPad Pro (12.9 inch) 4G (Cellular)";
 
     // iPod http://theiphonewiki.com/wiki/IPod
 
