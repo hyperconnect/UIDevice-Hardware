@@ -80,6 +80,7 @@
     if ([modelIdentifier isEqualToString:@"iPhone12,1"])   return @"iPhone 11";
     if ([modelIdentifier isEqualToString:@"iPhone12,3"])   return @"iPhone 11 Pro";
     if ([modelIdentifier isEqualToString:@"iPhone12,5"])   return @"iPhone 11 Pro Max";
+    if ([modelIdentifier isEqualToString:@"iPhone12,8"])   return @"iPhone SE 2G";
 
     // iPad http://theiphonewiki.com/wiki/IPad
 
