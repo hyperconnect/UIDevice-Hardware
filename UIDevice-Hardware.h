@@ -33,4 +33,9 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
  */
 - (UIDeviceFamily)deviceFamily;
 
+/**
+ Returns the model name from Identifier
+ */
+- (NSString *)modelNameForModelIdentifier:(NSString *)modelIdentifier;
+
 @end
